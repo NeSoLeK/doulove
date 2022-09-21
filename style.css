@@ -1,0 +1,80 @@
+html{
+    max-width: 500px; 
+    width: 100%;
+}
+    body  {
+        width: 100%;
+        max-width: 500px;
+        max-height: 900px;
+
+        background: url(bgm.jpg) no-repeat center center fixed;
+
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        background-size: cover; 
+    
+    }
+    .container{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 45px;
+        margin: 0 auto;
+        text-align: center;
+    
+
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right:10px;
+            padding-top:40px;
+            margin:12px
+    
+            
+    
+    }
+    
+    .btn__list{
+
+            width: 200px; background: none; border-left: 1px solid none;
+            right: 0px; /* Расстояние от верхнего края */ 
+            display: inline-block;
+            bottom: 0; /* Расстояние снизу  */
+            margin: 0 auto;
+            
+           
+    }
+    .btn    {
+    
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid #fff;
+    padding-left: 50px;
+    padding-right: 55px;
+    
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    margin-top:50px;
+    
+    
+    transition: background .1s 
+    linear, color .1s linear;
+    
+    }
+    
+    
+    
+    .btn:hover{
+       background-color: #fff;
+       color: #333; 
+    }
+     
+
+
+
+
+
